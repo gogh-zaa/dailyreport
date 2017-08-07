@@ -1,0 +1,53 @@
+page-login {
+    #login {
+        background: color($colors, energy);
+        h1 {
+            font-size: 40px;
+            margin-top: 5px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        .marginTop {
+            margin-top: 50px;
+        }
+        .logo {
+            height: 90px;
+        }
+        ion-card.card {
+            box-shadow: none;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+        }
+        .list>.item-block:first-child {
+            border: medium none;
+        }
+        .list>.item-block .item-inner {
+            border: medium none;
+        }
+        .item {
+            margin-bottom: 10px;
+            background: rgba(255, 255, 255, 0.5);
+            border: medium none;
+            .text-input,
+            {
+                color: #fff;
+            }
+            input::-moz-placeholder {
+                color: #fff!important;
+            }
+            input:-moz-placeholder {
+                color: #fff!important;
+            }
+            *::-webkit-input-placeholder {
+                color: #fff!important;
+            }
+            *:-ms-input-placeholder {
+                color: #fff!important;
+            }
+            *:-moz-placeholder {
+                color: #fff!important;
+            }
+        }
+    }
+}

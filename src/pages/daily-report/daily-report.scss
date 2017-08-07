@@ -1,0 +1,65 @@
+page-daily-report {
+    .grid-basic-page {
+        ion-col div {
+            // background-color: #f0f5ff;
+            // border: 1px solid #e6e9ee;
+            // border-radius: 2px;
+            // padding: 5px;
+        }
+        p {
+            padding: 10px 0 0 10px !important;
+            margin: 0;
+        }
+        .r {
+            text-align: right;
+        }
+        .l {
+            text-align: left;
+        }
+        .c {
+            text-align: center;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffffff !important;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: bolder;
+        }
+        .b1 {
+            background: #FFB74D;
+        }
+        .b2 {
+            background: #9CCC65;
+        }
+        .b3 {
+            background: #16a085;
+        }
+        .b4 {
+            background: #f94877;
+        }
+        .b5 {
+            background: #AB47BC;
+        }
+        .b6 {
+            background: #FF7043;
+        }
+        .b7 {
+            background: #FFDDA0;
+        }
+        .b8 {
+            background: #AED581;
+        }
+        .b9 {
+            background: #937647;
+        }
+        .b10 {
+            background: #29B6F6;
+        }
+        .ht {
+            font-weight: bold;
+        }
+    }
+}
